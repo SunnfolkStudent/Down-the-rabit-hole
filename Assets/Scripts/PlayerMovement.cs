@@ -32,17 +32,24 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private InputManager _input;
     private AudioSource _audioSource;
+    private SpriteRenderer _spriteRenderer;
 
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _input = GetComponent<InputManager>();
         _audioSource = GetComponent<AudioSource>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
     {
         _desiredVelocity = _rigidbody2D.velocity;
+
+        if (_input.moveDirection.x != 0)
+        {
+            _spriteRenderer.flipX = _input.moveDirection.x < 0;
+        }
 
 
         if (IsPlayerGrounded())
