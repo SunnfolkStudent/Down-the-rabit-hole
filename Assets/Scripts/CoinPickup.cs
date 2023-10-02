@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class CoinPickup : MonoBehaviour
 {
+
+    public int coins;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +23,9 @@ public class CoinPickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Coin"))
         {
+            coins++;
             Destroy(gameObject);
         }
     }
