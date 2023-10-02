@@ -26,11 +26,7 @@ public class EnemyPatrol : MonoBehaviour
             transform.localScale = new Vector3(
                 -transform.localScale.x, 1f, 1f);
         }
-
-        if (DetectedPlayer())
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+        
     }
     
     private bool DetectedWallOrFall()
@@ -42,8 +38,7 @@ public class EnemyPatrol : MonoBehaviour
     private bool DetectedPlayer()
     {
         return
-            Physics2D.OverlapBox(new Vector2((transform.position.x+0.2f)* 
-            transform.localScale.x, transform.position.y + 0.3f)
+            Physics2D.OverlapBox(new Vector2(transform.position.x+0.1f, transform.position.y + 0.3f)
             ,transform.localScale, 0f, whatIsPlayer)
             || 
             Physics2D.OverlapBox(new Vector2(transform.position.x, transform.position.y + 0.3f)
