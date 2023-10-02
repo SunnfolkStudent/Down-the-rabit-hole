@@ -1,4 +1,5 @@
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 
 public class PlayerMovement : MonoBehaviour
@@ -71,12 +72,14 @@ public class PlayerMovement : MonoBehaviour
             //_rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpSpeed);
             _desiredVelocity.y = jumpSpeed;
             jumpBufferCounter = 0f;
+            int random;
+            random = Random.Range(0, jumpClip.Length);
+            _audioSource.PlayOneShot(jumpClip[random]);
         }
         
         if (_input.jumpReleased && _desiredVelocity.y > 0f)
         {
-            //_rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _rigidbody2D.velocity.y * 0.2f);
-            _audioSource.PlayOneShot(jumpClip[Random.Range(0,jumpClip.Length)]);
+            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _rigidbody2D.velocity.y * 0.2f);
             _desiredVelocity.y *= 0.5f;
             coyoteTimeCounter = 0f;
         }
@@ -102,6 +105,6 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsPlayerGrounded()
     {
-        return Physics2D.Raycast(transform.position, Vector2.down, 1.1f, whatIsGround);
+        return Physics2D.Raycast(transform.position, Vector2.down, 0.1f, whatIsGround);
     }
 }
