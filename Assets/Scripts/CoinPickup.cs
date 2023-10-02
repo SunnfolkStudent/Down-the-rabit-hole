@@ -26,7 +26,7 @@ public class CoinPickup : MonoBehaviour
         if (other.gameObject.CompareTag("Coin"))
         {
             coins++;
-            Destroy(gameObject);
+            Destroy(other.gameObject);
         }
     }
 }
