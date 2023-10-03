@@ -33,7 +33,7 @@ public class EnemyPatrol : MonoBehaviour
     {
         // Origin, Direction, Distance, PhysicsLayer
         return Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + 0.2f),
-            Vector2.left * transform.localScale, 0.6f,
+            Vector2.right * transform.localScale, 0.6f,
             whatIsGround) || !Physics2D.Raycast(fallCheckPoint.position, Vector2.down,
             0.6f, whatIsGround);
     }
@@ -41,7 +41,7 @@ public class EnemyPatrol : MonoBehaviour
     private bool DetectedPlayer()
     {
         return
-            Physics2D.OverlapBox(new Vector2(transform.position.x+0.1f, transform.position.y + 0.3f)
+            Physics2D.OverlapBox(new Vector2(transform.position.x+0.1f, transform.position.y)
             ,transform.localScale, 0f, whatIsPlayer)
             || 
             Physics2D.OverlapBox(new Vector2(transform.position.x, transform.position.y + 0.3f)

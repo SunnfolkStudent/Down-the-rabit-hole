@@ -41,9 +41,9 @@ public class PlayerHealthManager : MonoBehaviour
       Destroy(other.gameObject);
     }
   }
-  private void OnTriggerStay2D(Collider2D other)
+  private void OnCollisionStay2D(Collision2D other)
   {
-    if (canTakeDamage && other.CompareTag("Enemy"))
+    if (canTakeDamage && other.gameObject.CompareTag("Enemy"))
     {
       _audioSource.PlayOneShot(hurtClips[Random.Range(0,pickupClips.Length)]);
       if (lives <= 0) return;

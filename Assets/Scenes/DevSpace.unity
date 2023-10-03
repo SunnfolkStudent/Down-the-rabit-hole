@@ -4498,11 +4498,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6114323756058919823, guid: 5d9b3b0f96692e145bb2874f39e15ae2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.61
+      value: 20.61
       objectReference: {fileID: 0}
     - target: {fileID: 6114323756058919823, guid: 5d9b3b0f96692e145bb2874f39e15ae2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.83000004
+      value: -0.41999984
       objectReference: {fileID: 0}
     - target: {fileID: 6114323756058919823, guid: 5d9b3b0f96692e145bb2874f39e15ae2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4563,11 +4563,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7453319818371177898, guid: 76094519f4c94bd41a21568250cc7ec6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.61
+      value: 16.61
       objectReference: {fileID: 0}
     - target: {fileID: 7453319818371177898, guid: 76094519f4c94bd41a21568250cc7ec6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.87
+      value: -2.12
       objectReference: {fileID: 0}
     - target: {fileID: 7453319818371177898, guid: 76094519f4c94bd41a21568250cc7ec6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4614,6 +4614,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4287651968761666709, guid: ad7d2e34728b84841acbd10f9ed2d8e1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5305400768898853059, guid: f06b63c71bd5a264bb7f356b2d6abb0c, type: 3}
+    - target: {fileID: 4287651968761666709, guid: ad7d2e34728b84841acbd10f9ed2d8e1, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287651968761666709, guid: ad7d2e34728b84841acbd10f9ed2d8e1, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287651968761666709, guid: ad7d2e34728b84841acbd10f9ed2d8e1, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5541958198145189219, guid: ad7d2e34728b84841acbd10f9ed2d8e1, type: 3}
       propertyPath: coinPickup
       value: 
@@ -4706,6 +4722,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1919931212}
+    - target: {fileID: 8221361313556573926, guid: ad7d2e34728b84841acbd10f9ed2d8e1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5305400768898853059, guid: f06b63c71bd5a264bb7f356b2d6abb0c, type: 3}
+    - target: {fileID: 8248704258229414316, guid: ad7d2e34728b84841acbd10f9ed2d8e1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5305400768898853059, guid: f06b63c71bd5a264bb7f356b2d6abb0c, type: 3}
     - target: {fileID: 8930822349295343756, guid: ad7d2e34728b84841acbd10f9ed2d8e1, type: 3}
       propertyPath: m_Name
       value: UserInterface
@@ -4734,7 +4758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4630212079611517172, guid: a4adf28eef2742747ba83d268be70e9f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.64
+      value: 22.14
       objectReference: {fileID: 0}
     - target: {fileID: 4630212079611517172, guid: a4adf28eef2742747ba83d268be70e9f, type: 3}
       propertyPath: m_LocalPosition.y
