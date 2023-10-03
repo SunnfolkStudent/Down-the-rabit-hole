@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 2973689580250219388}
   - component: {fileID: 4472196744415682013}
   - component: {fileID: 41066058105181585}
+  - component: {fileID: 2569609851802139889}
   m_Layer: 6
   m_Name: Rabbit 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -326,3 +327,16 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d81fb6ed6e786644aa730355f79a3268, type: 3}
   - {fileID: 8300000, guid: e3ef7e27fbe173247a3dcf4284f3e7b1, type: 3}
   - {fileID: 8300000, guid: 72370818602c50b4fa020c3b669927ce, type: 3}
+--- !u!114 &2569609851802139889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237219493133947955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac42dc932cdbf04b89b92b9d643ee2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coins: 0

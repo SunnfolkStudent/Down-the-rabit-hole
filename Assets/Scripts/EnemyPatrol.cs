@@ -32,7 +32,10 @@ public class EnemyPatrol : MonoBehaviour
     private bool DetectedWallOrFall()
     {
         // Origin, Direction, Distance, PhysicsLayer
-        return Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + 0.2f), Vector2.left * transform.localScale, 0.6f, whatIsGround) || !Physics2D.Raycast(fallCheckPoint.position, Vector2.down, 0.6f, whatIsGround);
+        return Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + 0.2f),
+            Vector2.left * transform.localScale, 0.6f,
+            whatIsGround) || !Physics2D.Raycast(fallCheckPoint.position, Vector2.down,
+            0.6f, whatIsGround);
     }
 
     private bool DetectedPlayer()
