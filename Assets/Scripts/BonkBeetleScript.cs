@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EnemyPatrol : MonoBehaviour
+public class BonkBeetleScript : MonoBehaviour
 {
     public float moveSpeed = 4f;
     public float raycastOffset;
@@ -41,17 +41,17 @@ public class EnemyPatrol : MonoBehaviour
         // Origin, Direction, Distance, PhysicsLayer
         return 
             Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + raycastOffset), 
-                   Vector2.right * transform.localScale, 1.2f,whatIsGround) 
-               || 
-               !Physics2D.Raycast(fallCheckPoint.position, Vector2.down,
-            1f, whatIsGround);
+                Vector2.right * transform.localScale, 1.2f,whatIsGround) 
+            || 
+            !Physics2D.Raycast(fallCheckPoint.position, Vector2.down,
+                1f, whatIsGround);
     }
     
 
     private bool DetectedPlayer()
     {
-         _hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + raycastOffset),
-            Vector2.right * transform.localScale, 1.2f, whatIsPlayer );
-         return _hit;
+        _hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + raycastOffset),
+            Vector2.right * transform.localScale, 1.8f, whatIsPlayer );
+        return _hit;
     }
 }

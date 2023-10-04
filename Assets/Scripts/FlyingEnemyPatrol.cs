@@ -22,34 +22,38 @@ public class FlyingEnemyPatrol : MonoBehaviour
     }
     
     private void FixedUpdate()
-    { _rigidbody2D.velocity = new Vector2(
-        moveSpeed * transform.localScale.x, 
-        _rigidbody2D.velocity.y); 
+    { 
+        _rigidbody2D.velocity = new Vector2(moveSpeed * direction, _rigidbody2D.velocity.y); // Constant velocity
     }
-
+    
+    private int direction = 1;
     private void Update()
     {
+        
         if (originPosition.x + patrolOffset > transform.position.x)
         {
-            transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
+            direction = 1;
         }
         else if (originPosition.x - patrolOffset < transform.position.x)
         {
-            transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
+            //transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
+            direction = -1;
         }
+        
+        transform.localScale = new Vector3(direction, 1f, 1f);
     }
 
     private void LateUpdate()
     {
         if (DetectedPlayer())
         {
-            _hit.transform.GetComponent<PlayerHealthManager>().TakeDamage();;
+            _hit.transform.GetComponent<PlayerHealthManager>().TakeDamage(); // Damage Player
         }
         if (DetectedWall() || DetectedPlayer())
         {
-            transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
+            //transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f); // Turn
+            direction = -direction;
         }
-        
     }
     
     private bool DetectedWall()
