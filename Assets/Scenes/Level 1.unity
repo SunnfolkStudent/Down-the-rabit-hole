@@ -36308,19 +36308,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3717308649339694421, guid: 5d9b3b0f96692e145bb2874f39e15ae2, type: 3}
       propertyPath: m_ClearFlags
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3717308649339694421, guid: 5d9b3b0f96692e145bb2874f39e15ae2, type: 3}
       propertyPath: m_BackGroundColor.b
-      value: 0.54509807
+      value: 0.86274517
       objectReference: {fileID: 0}
     - target: {fileID: 3717308649339694421, guid: 5d9b3b0f96692e145bb2874f39e15ae2, type: 3}
       propertyPath: m_BackGroundColor.g
-      value: 0.42352945
+      value: 0.61960787
       objectReference: {fileID: 0}
     - target: {fileID: 3717308649339694421, guid: 5d9b3b0f96692e145bb2874f39e15ae2, type: 3}
       propertyPath: m_BackGroundColor.r
-      value: 0.3372549
+      value: 0.454902
       objectReference: {fileID: 0}
     - target: {fileID: 4353412899591383087, guid: 5d9b3b0f96692e145bb2874f39e15ae2, type: 3}
       propertyPath: m_DeadZoneHeight
