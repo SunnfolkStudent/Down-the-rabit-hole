@@ -66,4 +66,16 @@ public class PlayerHealthManager : MonoBehaviour
       // Kill Player or reset Scene
     }
   }
+
+  public void HealDamage()
+  {
+    if (lives >= 3)
+    {
+      return;
+    }
+    else
+    {
+      lives++;
+    }
+  }
 }

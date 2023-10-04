@@ -44,7 +44,7 @@ public class EnemyPatrol : MonoBehaviour
                    Vector2.right * transform.localScale, .6f,whatIsGround) 
                || 
                !Physics2D.Raycast(fallCheckPoint.position, Vector2.down,
-            0.6f, whatIsGround);
+            1f, whatIsGround);
     }
     
 

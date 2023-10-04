@@ -28,5 +28,10 @@ public class CoinPickup : MonoBehaviour
             coins++;
             Destroy(other.gameObject);
         }
+        else if (other.gameObject.CompareTag("Heart"))
+        {
+            GetComponent<PlayerHealthManager>().HealDamage();;
+        }
+        
     }
 }
