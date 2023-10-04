@@ -40,7 +40,7 @@ public class BonkBeetleScript : MonoBehaviour
     {
         // Origin, Direction, Distance, PhysicsLayer
         return 
-            Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + raycastOffset), 
+            Physics2D.Raycast(new Vector2(transform.position.x , transform.position.y + raycastOffset), 
                 Vector2.right * transform.localScale, 1.2f,whatIsGround) 
             || 
             !Physics2D.Raycast(fallCheckPoint.position, Vector2.down,

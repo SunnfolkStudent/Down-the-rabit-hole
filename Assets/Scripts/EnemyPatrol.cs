@@ -41,17 +41,31 @@ public class EnemyPatrol : MonoBehaviour
         // Origin, Direction, Distance, PhysicsLayer
         return 
             Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + raycastOffset), 
-                   Vector2.right * transform.localScale, 1.2f,whatIsGround) 
+                   Vector2.right * transform.localScale, .7f,whatIsGround) 
                || 
                !Physics2D.Raycast(fallCheckPoint.position, Vector2.down,
             1f, whatIsGround);
     }
+    
+    /*private bool DetectedEnemy()
+    {
+        // Origin, Direction, Distance, PhysicsLayer
+        return 
+            Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + raycastOffset), 
+                Vector2.right * transform.localScale, .7f,whatIsGround) 
+            || 
+            !Physics2D.Raycast(fallCheckPoint.position, Vector2.down,
+                1f, whatIsEnemy);
+    }*/
     
 
     private bool DetectedPlayer()
     {
          _hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + raycastOffset),
             Vector2.right * transform.localScale, 1.2f, whatIsPlayer );
+         
+         Debug.DrawRay(transform.position, Vector2.right);
+         
          return _hit;
     }
 }

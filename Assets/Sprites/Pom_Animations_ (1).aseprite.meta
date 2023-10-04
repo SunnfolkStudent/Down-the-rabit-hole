@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: 47db5f3d441c90e4f89908474972ac17
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 32
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638320327444267008
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Pom_Animations_ (1)_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 30
+      height: 31
+    spriteID: f6d8ea7e244e4574e94f29d76a9f701e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Pom_Animations_ (1)_Frame_30
+    originalName: 
+    pivot: {x: 0.5185185, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 27
+      height: 31
+    spriteID: 5af2449610547f0439c536c17360c669
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 43}
+  - name: Pom_Animations_ (1)_Frame_31
+    originalName: 
+    pivot: {x: 0.56, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 82
+      width: 25
+      height: 31
+    spriteID: e069f1b0557f97640bcee714b585ae89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 82}
+  - name: Pom_Animations_ (1)_Frame_32
+    originalName: 
+    pivot: {x: 0.5909091, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 121
+      width: 22
+      height: 29
+    spriteID: 8d9480871cf457a448c0d6375c5178a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 121}
+  - name: Pom_Animations_ (1)_Frame_33
+    originalName: 
+    pivot: {x: 0.55, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 78
+      width: 20
+      height: 28
+    spriteID: 9afbc3d468fbcb449abb59f4b99c2d5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 78}
+  - name: Pom_Animations_ (1)_Frame_34
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 228
+      width: 19
+      height: 22
+    spriteID: ae86df0a03e36d84b836ca37727fde51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 227}
+  - name: Pom_Animations_ (1)_Frame_35
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 234
+      width: 19
+      height: 18
+    spriteID: 31dd3310d9f39294696eb3f07acc256d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 234}
+  - name: Pom_Animations_ (1)_Frame_36
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 4
+      width: 19
+      height: 17
+    spriteID: e67ae8700c9a5e94b99efedc480ce06d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 4}
+  - name: Pom_Animations_ (1)_Frame_0
+    originalName: 
+    pivot: {x: 0.55, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 4
+      width: 20
+      height: 29
+    spriteID: f9e1604e36243bd4eb0029761d896e2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 4}
+  - name: Pom_Animations_ (1)_Frame_1
+    originalName: 
+    pivot: {x: 0.57894737, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 114
+      width: 19
+      height: 28
+    spriteID: ab92209d0f8d9d24c8c76cc20f0cae95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 114}
+  - name: Pom_Animations_ (1)_Frame_2
+    originalName: 
+    pivot: {x: 0.64705884, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 4
+      width: 17
+      height: 29
+    spriteID: 26b49bac50050074b95b73099a7b431d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 4}
+  - name: Pom_Animations_ (1)_Frame_3
+    originalName: 
+    pivot: {x: 0.64705884, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 150
+      width: 17
+      height: 31
+    spriteID: 112b7ca6703f575489b0ea452f16a00c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 150}
+  - name: Pom_Animations_ (1)_Frame_4
+    originalName: 
+    pivot: {x: 0.55, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 41
+      width: 20
+      height: 29
+    spriteID: 5787b9b71fa05384e8fa60a43bcfb05f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 41}
+  - name: Pom_Animations_ (1)_Frame_5
+    originalName: 
+    pivot: {x: 0.6111111, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 162
+      width: 18
+      height: 28
+    spriteID: e3227be878b025d469605aac4c908b2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 162}
+  - name: Pom_Animations_ (1)_Frame_6
+    originalName: 
+    pivot: {x: 0.64705884, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 41
+      width: 17
+      height: 29
+    spriteID: a24dce64331773a47bd1062f7f822dee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 41}
+  - name: Pom_Animations_ (1)_Frame_7
+    originalName: 
+    pivot: {x: 0.57894737, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 4
+      width: 19
+      height: 31
+    spriteID: c2f91c1eed4e8b244b9f55833fc8c707
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 4}
+  - name: Pom_Animations_ (1)_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 198
+      width: 16
+      height: 31
+    spriteID: f1bc0d982ab662548a48faba0cd5828f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 198}
+  - name: Pom_Animations_ (1)_Frame_9
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 153
+      width: 17
+      height: 27
+    spriteID: b3bf892cb58e2064e9ce6d287d94268d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 153}
+  - name: Pom_Animations_ (1)_Frame_10
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 189
+      width: 17
+      height: 31
+    spriteID: efa814ae3d5c357428a1003d911b4157
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 189}
+  - name: Pom_Animations_ (1)_Frame_11
+    originalName: 
+    pivot: {x: 0.53333336, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 114
+      width: 15
+      height: 31
+    spriteID: 15a3cd08b2a2e3042a378a2bbe02e741
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 114}
+  - name: Pom_Animations_ (1)_Frame_12
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 188
+      width: 15
+      height: 30
+    spriteID: 738306ab41e8f504aa00d52a84200594
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 188}
+  - name: Pom_Animations_ (1)_Frame_13
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 82
+      width: 15
+      height: 30
+    spriteID: 79b55d3cc2146794f9351838d8448622
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 82}
+  - name: Pom_Animations_ (1)_Frame_14
+    originalName: 
+    pivot: {x: 0.5294118, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 226
+      width: 17
+      height: 23
+    spriteID: 07207a4b6dfdb6641899c164e08e4adb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 226}
+  - name: Pom_Animations_ (1)_Frame_15
+    originalName: 
+    pivot: {x: 0.47058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 78
+      width: 17
+      height: 28
+    spriteID: cddac568cafec594b94a8e2a5c1cf7c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 78}
+  - name: Pom_Animations_ (1)_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 4
+      width: 16
+      height: 31
+    spriteID: d3150ae3227b1c945bb7b3549193c53d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 4}
+  - name: Pom_Animations_ (1)_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 43
+      width: 16
+      height: 31
+    spriteID: 0b60cd1742910ae4bb7c7ed013c57e7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 43}
+  - name: Pom_Animations_ (1)_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 82
+      width: 16
+      height: 31
+    spriteID: 6b7954246bef3e649bec2c482677c237
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 82}
+  - name: Pom_Animations_ (1)_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 121
+      width: 16
+      height: 31
+    spriteID: 690839381b621ab49876d7e4eadb603b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 121}
+  - name: Pom_Animations_ (1)_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 82
+      width: 16
+      height: 32
+    spriteID: 6e6291c8b884b134db2a1722bca47165
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 82}
+  - name: Pom_Animations_ (1)_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 122
+      width: 16
+      height: 32
+    spriteID: d8f2496f41e5f2a4e9e51959944dfa20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 122}
+  - name: Pom_Animations_ (1)_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 160
+      width: 16
+      height: 31
+    spriteID: e6b0d1f5d73285a4ca4955f1e7ebc6ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 160}
+  - name: Pom_Animations_ (1)_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 199
+      width: 16
+      height: 31
+    spriteID: 7c5d46c1e3c07944e9fa55eb8a28ca69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 199}
+  - name: Pom_Animations_ (1)_Frame_24
+    originalName: 
+    pivot: {x: 0.47368422, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 43
+      width: 19
+      height: 31
+    spriteID: 77eb5865ed1d0a44da11e8088d9994aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 43}
+  - name: Pom_Animations_ (1)_Frame_25
+    originalName: 
+    pivot: {x: 0.52380955, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 158
+      width: 21
+      height: 30
+    spriteID: 91f9c1f85dee17c43b6cb0d9f5246bb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 158}
+  - name: Pom_Animations_ (1)_Frame_26
+    originalName: 
+    pivot: {x: 0.52380955, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 196
+      width: 21
+      height: 30
+    spriteID: 62953ea443ef57f429b718095c78a750
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 196}
+  - name: Pom_Animations_ (1)_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 4
+      width: 16
+      height: 31
+    spriteID: c9caffee6ee3d0745bd460ededdd8a90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 4}
+  - name: Pom_Animations_ (1)_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 43
+      width: 16
+      height: 31
+    spriteID: b13b37d1529a40d4ea3fe3faf772298e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 43}
+  - name: Pom_Animations_ (1)_Frame_37
+    originalName: 
+    pivot: {x: 0.4375, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 238
+      width: 16
+      height: 10
+    spriteID: 0ce54dd4cadbb474da528939a4acd19d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 238}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1864779255
+    name: Pom_Animations_ (1)
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Pom_Animations_ (1)_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 1
+        y: 0
+        width: 30
+        height: 31
+      spriteId: f6d8ea7e244e4574e94f29d76a9f701e
+    - name: Pom_Animations_ (1)_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 2
+        y: 0
+        width: 27
+        height: 31
+      spriteId: 5af2449610547f0439c536c17360c669
+    - name: Pom_Animations_ (1)_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 2
+        y: 0
+        width: 25
+        height: 31
+      spriteId: e069f1b0557f97640bcee714b585ae89
+    - name: Pom_Animations_ (1)_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 3
+        y: 1
+        width: 22
+        height: 29
+      spriteId: 8d9480871cf457a448c0d6375c5178a3
+    - name: Pom_Animations_ (1)_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 5
+        y: 1
+        width: 20
+        height: 28
+      spriteId: 9afbc3d468fbcb449abb59f4b99c2d5c
+    - name: Pom_Animations_ (1)_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      spriteId: ae86df0a03e36d84b836ca37727fde51
+    - name: Pom_Animations_ (1)_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 6
+        y: 1
+        width: 19
+        height: 18
+      spriteId: 31dd3310d9f39294696eb3f07acc256d
+    - name: Pom_Animations_ (1)_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 6
+        y: 1
+        width: 19
+        height: 17
+      spriteId: e67ae8700c9a5e94b99efedc480ce06d
+    - name: Pom_Animations_ (1)_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 29
+      spriteId: f9e1604e36243bd4eb0029761d896e2d
+    - name: Pom_Animations_ (1)_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 5
+        y: 0
+        width: 19
+        height: 28
+      spriteId: ab92209d0f8d9d24c8c76cc20f0cae95
+    - name: Pom_Animations_ (1)_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 5
+        y: 0
+        width: 17
+        height: 29
+      spriteId: 26b49bac50050074b95b73099a7b431d
+    - name: Pom_Animations_ (1)_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 5
+        y: 0
+        width: 17
+        height: 31
+      spriteId: 112b7ca6703f575489b0ea452f16a00c
+    - name: Pom_Animations_ (1)_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 5
+        y: 0
+        width: 20
+        height: 29
+      spriteId: 5787b9b71fa05384e8fa60a43bcfb05f
+    - name: Pom_Animations_ (1)_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 5
+        y: 0
+        width: 18
+        height: 28
+      spriteId: e3227be878b025d469605aac4c908b2c
+    - name: Pom_Animations_ (1)_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 5
+        y: 0
+        width: 17
+        height: 29
+      spriteId: a24dce64331773a47bd1062f7f822dee
+    - name: Pom_Animations_ (1)_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 5
+        y: 0
+        width: 19
+        height: 31
+      spriteId: c2f91c1eed4e8b244b9f55833fc8c707
+    - name: Pom_Animations_ (1)_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 8
+        y: 0
+        width: 16
+        height: 31
+      spriteId: f1bc0d982ab662548a48faba0cd5828f
+    - name: Pom_Animations_ (1)_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 27
+      spriteId: b3bf892cb58e2064e9ce6d287d94268d
+    - name: Pom_Animations_ (1)_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 31
+      spriteId: efa814ae3d5c357428a1003d911b4157
+    - name: Pom_Animations_ (1)_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 8
+        y: 0
+        width: 15
+        height: 31
+      spriteId: 15a3cd08b2a2e3042a378a2bbe02e741
+    - name: Pom_Animations_ (1)_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 30
+      spriteId: 738306ab41e8f504aa00d52a84200594
+    - name: Pom_Animations_ (1)_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 30
+      spriteId: 79b55d3cc2146794f9351838d8448622
+    - name: Pom_Animations_ (1)_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 7
+        y: 0
+        width: 17
+        height: 23
+      spriteId: 07207a4b6dfdb6641899c164e08e4adb
+    - name: Pom_Animations_ (1)_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 8
+        y: 0
+        width: 17
+        height: 28
+      spriteId: cddac568cafec594b94a8e2a5c1cf7c2
+    - name: Pom_Animations_ (1)_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 8
+        y: 0
+        width: 16
+        height: 31
+      spriteId: d3150ae3227b1c945bb7b3549193c53d
+    - name: Pom_Animations_ (1)_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 8
+        y: 0
+        width: 16
+        height: 31
+      spriteId: 0b60cd1742910ae4bb7c7ed013c57e7a
+    - name: Pom_Animations_ (1)_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 8
+        y: 0
+        width: 16
+        height: 31
+      spriteId: 6b7954246bef3e649bec2c482677c237
+    - name: Pom_Animations_ (1)_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 8
+        y: 0
+        width: 16
+        height: 31
+      spriteId: 690839381b621ab49876d7e4eadb603b
+    - name: Pom_Animations_ (1)_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 8
+        y: 0
+        width: 16
+        height: 32
+      spriteId: 6e6291c8b884b134db2a1722bca47165
+    - name: Pom_Animations_ (1)_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 8
+        y: 0
+        width: 16
+        height: 32
+      spriteId: d8f2496f41e5f2a4e9e51959944dfa20
+    - name: Pom_Animations_ (1)_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 8
+        y: 0
+        width: 16
+        height: 31
+      spriteId: e6b0d1f5d73285a4ca4955f1e7ebc6ab
+    - name: Pom_Animations_ (1)_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 8
+        y: 0
+        width: 16
+        height: 31
+      spriteId: 7c5d46c1e3c07944e9fa55eb8a28ca69
+    - name: Pom_Animations_ (1)_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 7
+        y: 0
+        width: 19
+        height: 31
+      spriteId: 77eb5865ed1d0a44da11e8088d9994aa
+    - name: Pom_Animations_ (1)_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 5
+        y: 0
+        width: 21
+        height: 30
+      spriteId: 91f9c1f85dee17c43b6cb0d9f5246bb8
+    - name: Pom_Animations_ (1)_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 5
+        y: 0
+        width: 21
+        height: 30
+      spriteId: 62953ea443ef57f429b718095c78a750
+    - name: Pom_Animations_ (1)_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 8
+        y: 0
+        width: 16
+        height: 31
+      spriteId: c9caffee6ee3d0745bd460ededdd8a90
+    - name: Pom_Animations_ (1)_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 8
+        y: 0
+        width: 16
+        height: 31
+      spriteId: b13b37d1529a40d4ea3fe3faf772298e
+    - name: Pom_Animations_ (1)_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 9
+        y: 1
+        width: 16
+        height: 10
+      spriteId: 0ce54dd4cadbb474da528939a4acd19d
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
