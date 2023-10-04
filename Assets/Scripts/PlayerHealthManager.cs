@@ -43,13 +43,27 @@ public class PlayerHealthManager : MonoBehaviour
   }
   private void OnCollisionStay2D(Collision2D other)
   {
-    if (canTakeDamage && other.gameObject.CompareTag("Enemy"))
+    if (other.gameObject.CompareTag("Enemy"))
     {
-      _audioSource.PlayOneShot(hurtClips[Random.Range(0,pickupClips.Length)]);
-      if (lives <= 0) return;
+      TakeDamage();
+    }
+  }
+
+  public void TakeDamage()
+  {
+    if (canTakeDamage == false) return;
+    
+    _audioSource.PlayOneShot(hurtClips[Random.Range(0, pickupClips.Length)]);
+
+    if (lives > 0)
+    {
       lives -= 1; // lives --;
       canTakeDamage = false;
       canTakeDamageCounter = Time.time + canTakeDamageTime;
+    }
+    else if (lives <= 0)
+    {
+      // Kill Player or reset Scene
     }
   }
 }

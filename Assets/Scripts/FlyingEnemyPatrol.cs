@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EnemyPatrol : MonoBehaviour
+public class FlyingEnemyPatrol : MonoBehaviour
 {
     public float moveSpeed = 4f;
     public float raycastOffset;
@@ -12,9 +12,13 @@ public class EnemyPatrol : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private RaycastHit2D _hit;
 
+    private Vector2 originPosition;
+    public float patrolOffset;
+
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        originPosition = transform.position;
     }
     
     private void FixedUpdate()
@@ -23,28 +27,37 @@ public class EnemyPatrol : MonoBehaviour
         _rigidbody2D.velocity.y); 
     }
 
+    private void Update()
+    {
+        if (originPosition.x + patrolOffset > transform.position.x)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
+        }
+        else if (originPosition.x - patrolOffset < transform.position.x)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
+        }
+    }
+
     private void LateUpdate()
     {
         if (DetectedPlayer())
         {
             _hit.transform.GetComponent<PlayerHealthManager>().TakeDamage();;
         }
-        if (DetectedWallOrFall() || DetectedPlayer())
+        if (DetectedWall() || DetectedPlayer())
         {
             transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
         }
         
     }
     
-    private bool DetectedWallOrFall()
+    private bool DetectedWall()
     {
         // Origin, Direction, Distance, PhysicsLayer
-        return 
-            Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + raycastOffset), 
-                   Vector2.right * transform.localScale, .6f,whatIsGround) 
-               || 
-               !Physics2D.Raycast(fallCheckPoint.position, Vector2.down,
-            0.6f, whatIsGround);
+        return
+            Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + raycastOffset),
+                Vector2.right * transform.localScale, .6f, whatIsGround);
     }
     
 
