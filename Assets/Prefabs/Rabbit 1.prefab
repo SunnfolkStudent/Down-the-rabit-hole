@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4472196744415682013}
   - component: {fileID: 41066058105181585}
   - component: {fileID: 2569609851802139889}
+  - component: {fileID: 7307371831791225568}
   m_Layer: 6
   m_Name: Rabbit 1
   m_TagString: Player
@@ -125,8 +126,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.027346315, y: 0.5184411}
-  m_Size: {x: 0.61715037, y: 1.0912457}
+  m_Offset: {x: -0.027346315, y: 0.5327475}
+  m_Size: {x: 0.6171503, y: 1.0626328}
   m_Direction: 0
 --- !u!50 &2033206354511701720
 Rigidbody2D:
@@ -317,7 +318,7 @@ MonoBehaviour:
   lives: 3
   maxLives: 3
   canTakeDamage: 0
-  canTakeDamageTime: 0.2
+  canTakeDamageTime: 1
   canTakeDamageCounter: 0
   hurtClips:
   - {fileID: 8300000, guid: 9cfbb7270ed495745b6334501ab5f5fc, type: 3}
@@ -340,3 +341,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coins: 0
+--- !u!114 &7307371831791225568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237219493133947955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8854c4d73b8244ce86dd360011d46d71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

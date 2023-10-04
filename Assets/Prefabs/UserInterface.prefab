@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 41d95bc9c01769e4c9bad2a151a1b835, type: 3}
+  m_Sprite: {fileID: -5305400768898853059, guid: f06b63c71bd5a264bb7f356b2d6abb0c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 41d95bc9c01769e4c9bad2a151a1b835, type: 3}
+  m_Sprite: {fileID: -5305400768898853059, guid: f06b63c71bd5a264bb7f356b2d6abb0c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 904856517740912400}
   - component: {fileID: 8846342495660745112}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Carrot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -349,7 +349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2870412905246933495, guid: 3dc3f8ec30841e3429cc2ac9e666afb7, type: 3}
+  m_Sprite: {fileID: 2332683290974708775, guid: 1eb7f6669f5aeda43a57852b13b78891, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -424,7 +424,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 41d95bc9c01769e4c9bad2a151a1b835, type: 3}
+  m_Sprite: {fileID: -5305400768898853059, guid: f06b63c71bd5a264bb7f356b2d6abb0c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
