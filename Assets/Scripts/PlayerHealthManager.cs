@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthManager : MonoBehaviour
 {
@@ -63,7 +64,7 @@ public class PlayerHealthManager : MonoBehaviour
     }
     else if (lives <= 0)
     {
-      // Kill Player or reset Scene
+      Invoke(LoadNewScene(SceneController.LoadScene), 4f);
     }
   }
 
@@ -77,5 +78,10 @@ public class PlayerHealthManager : MonoBehaviour
     {
       lives++;
     }
+  }
+
+  private void LoadNewScene(string sceneName)
+  {
+    // Add reset scene
   }
 }

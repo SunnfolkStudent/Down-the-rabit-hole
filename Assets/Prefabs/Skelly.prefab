@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 3335790734697413070}
   - component: {fileID: 1245779247861732353}
   - component: {fileID: 6284886763247556566}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Skelly
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  raycastOffset: 0
+  raycastOffset: 0.5
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8

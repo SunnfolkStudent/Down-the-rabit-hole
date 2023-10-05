@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
     private InputManager _input;
     private AudioSource _audioSource;
     private SpriteRenderer _spriteRenderer;
+    private PlayerHealthManager _healthManager;
 
     private void Start()
     {
@@ -45,6 +46,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+
+        if (_healthManager.lives <= 0) return;
         _desiredVelocity = _rigidbody2D.velocity;
 
         if (_input.moveDirection.x != 0)
@@ -89,6 +92,8 @@ public class PlayerMovement : MonoBehaviour
     
     private void FixedUpdate()
     {
+        if (_healthManager.lives <= 0) return;
+        
         if (_input.moveDirection.x != 0)
         {
             _desiredVelocity.x = Mathf.Lerp(
@@ -103,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
         _rigidbody2D.velocity = _desiredVelocity;
     }
 
-    private bool IsPlayerGrounded()
+    public bool IsPlayerGrounded()
     {
         return Physics2D.Raycast(transform.position, Vector2.down, 0.1f, whatIsGround);
     }

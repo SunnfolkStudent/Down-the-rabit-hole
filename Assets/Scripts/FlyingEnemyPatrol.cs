@@ -26,21 +26,21 @@ public class FlyingEnemyPatrol : MonoBehaviour
         _rigidbody2D.velocity = new Vector2(moveSpeed * direction, _rigidbody2D.velocity.y); // Constant velocity
     }
     
-    private int direction = 1;
+    private int direction = 2;
     private void Update()
     {
         
         if (originPosition.x + patrolOffset > transform.position.x)
         {
-            direction = 1;
+            direction = 2;
         }
         else if (originPosition.x - patrolOffset < transform.position.x)
         {
             //transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
-            direction = -1;
+            direction = -2;
         }
         
-        transform.localScale = new Vector3(direction, 1f, 1f);
+        transform.localScale = new Vector3(direction, 2f, 1f);
     }
 
     private void LateUpdate()
