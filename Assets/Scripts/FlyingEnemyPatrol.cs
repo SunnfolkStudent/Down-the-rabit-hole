@@ -48,6 +48,7 @@ public class FlyingEnemyPatrol : MonoBehaviour
         if (DetectedPlayer())
         {
             _hit.transform.GetComponent<PlayerHealthManager>().TakeDamage(); // Damage Player
+            print("Kill the puny rabbit!!");
         }
         if (DetectedWall() || DetectedPlayer())
         {
