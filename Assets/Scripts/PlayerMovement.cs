@@ -42,6 +42,7 @@ public class PlayerMovement : MonoBehaviour
         _input = GetComponent<InputManager>();
         _audioSource = GetComponent<AudioSource>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _healthManager = GetComponent<PlayerHealthManager>();
     }
 
     private void Update()

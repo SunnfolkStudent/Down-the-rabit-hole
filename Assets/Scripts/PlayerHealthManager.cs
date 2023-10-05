@@ -19,9 +19,12 @@ public class PlayerHealthManager : MonoBehaviour
   private AudioSource _audioSource;
   public AudioClip[] hurtClips;
   public AudioClip[] pickupClips;
+  
+  private SceneController sceneController;
   private void Start()
   {
     _audioSource = GetComponent<AudioSource>();
+    sceneController = GetComponent<SceneController>();
   }
 
   private void Update()
@@ -50,6 +53,7 @@ public class PlayerHealthManager : MonoBehaviour
     }
   }
 
+  private bool yes; // makes death only happen once
   public void TakeDamage()
   {
     if (canTakeDamage == false) return;
@@ -62,9 +66,12 @@ public class PlayerHealthManager : MonoBehaviour
       canTakeDamage = false;
       canTakeDamageCounter = Time.time + canTakeDamageTime;
     }
-    else if (lives <= 0)
+    else if (lives <= 0 && !yes)
     {
-      Invoke(LoadNewScene(SceneController.LoadScene), 4f);
+      yes = true;
+      print("Dead");
+      
+      Invoke("ReloadScene", .7f);
     }
   }
 
@@ -80,8 +87,8 @@ public class PlayerHealthManager : MonoBehaviour
     }
   }
 
-  private void LoadNewScene(string sceneName)
+  private void ReloadScene()
   {
-    // Add reset scene
+      sceneController.Loadscene();
   }
 }

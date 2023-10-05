@@ -62,7 +62,7 @@ public class EnemyPatrol : MonoBehaviour
     private bool DetectedPlayer()
     {
          _hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + raycastOffset),
-            Vector2.right * transform.localScale, 1.2f, whatIsPlayer );
+            Vector2.right * transform.localScale, .7f, whatIsPlayer );
          
          Debug.DrawRay(transform.position, Vector2.right);
          
