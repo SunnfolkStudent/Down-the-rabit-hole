@@ -12,8 +12,9 @@ public class SceneController : MonoBehaviour
     {
         if(coll.CompareTag("LoadNextLevel"))
         {
-            if (SceneManager.sceneCountInBuildSettings > SceneManager.GetActiveScene().buildIndex)
+            if (SceneManager.GetActiveScene().buildIndex == 8)
             {
+                print("last level");
                 Application.Quit();
             }
             else
