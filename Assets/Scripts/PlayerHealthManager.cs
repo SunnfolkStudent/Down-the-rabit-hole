@@ -49,7 +49,7 @@ public class PlayerHealthManager : MonoBehaviour
   {
     if (other.gameObject.CompareTag("Enemy"))
     {
-      TakeDamage();
+      //TakeDamage();
     }
   }
 
