@@ -23,9 +23,8 @@ public class hurtBox : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            transform.GetComponent<PlayerHealthManager>().TakeDamage();;
+            other.GetComponent<PlayerHealthManager>().TakeDamage();;
         }
-
         
     }
 }
