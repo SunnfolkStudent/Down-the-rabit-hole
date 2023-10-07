@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 
@@ -48,6 +49,11 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Main menu");
+        }
+        
         if (_healthManager.lives <= 0) return;
         _desiredVelocity = _rigidbody2D.velocity;
 
@@ -114,3 +120,5 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.Raycast(transform.position, Vector2.down, 0.1f, whatIsGround);
     }
 }
+
+    

@@ -58,6 +58,7 @@ public class InputManager : MonoBehaviour
         interactPressed = _keyboard.fKey.wasPressedThisFrame;
         interactReleased = _keyboard.fKey.wasReleasedThisFrame;
         interactHeld = _keyboard.fKey.isPressed;
+        
     }
     
     private void UpdateGamepadInput()
