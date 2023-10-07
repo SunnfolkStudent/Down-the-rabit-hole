@@ -27,7 +27,7 @@ public class BonkBeetleScript : MonoBehaviour
     {
         if (DetectedPlayer())
         {
-            _hit.transform.GetComponent<PlayerHealthManager>().TakeDamage();;
+            _hit.transform.GetComponent<PlayerHealthManager>().TakeDamage();
         }
         if (DetectedWallOrFall() || DetectedPlayer())
         {
