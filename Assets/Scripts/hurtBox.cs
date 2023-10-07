@@ -26,6 +26,9 @@ public class hurtBox : MonoBehaviour
             other.GetComponent<PlayerHealthManager>().TakeDamage();;
         }
 
-        
+        private void test()
+        {
+            test();
+        }
     }
 }
