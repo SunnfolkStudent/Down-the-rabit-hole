@@ -14,6 +14,7 @@ public class DeathBoxScript : MonoBehaviour
     void Start()
     {
         GetComponent<SceneManager>();
+        GetComponent<SceneController>();
     }
 
     // Update is called once per frame

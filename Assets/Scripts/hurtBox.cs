@@ -21,7 +21,7 @@ public class hurtBox : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             transform.GetComponent<PlayerHealthManager>().TakeDamage();;
         }
