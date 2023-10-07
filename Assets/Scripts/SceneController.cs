@@ -15,7 +15,7 @@ public class SceneController : MonoBehaviour
             if (SceneManager.GetActiveScene().buildIndex == 8)
             {
                 print("last level");
-                Application.Quit();
+                SceneManager.LoadScene("Main menu");
             }
             else
             {
