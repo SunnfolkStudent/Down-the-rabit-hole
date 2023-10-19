@@ -52,6 +52,8 @@ public class BonkBeetleScript : MonoBehaviour
     {
         _hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + raycastOffset),
             Vector2.right * transform.localScale, 1.8f, whatIsPlayer );
+        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y + raycastOffset),
+            Vector2.right * transform.localScale, Color.red);
         return _hit;
     }
 }

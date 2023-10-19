@@ -13,7 +13,7 @@ public class PlayerAttack : MonoBehaviour
     private void Update()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down,
-            8f);
+            .6f);
         Debug.DrawRay(transform.position, Vector3.down, Color.red);
 
 
@@ -21,8 +21,10 @@ public class PlayerAttack : MonoBehaviour
 
         if (hit.transform.CompareTag("Enemy"))
         {
-            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, 8);
-            Destroy(hit.transform.gameObject);
+            print("I hit it");
+            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, 8f);
+            
+            Destroy(hit.transform.gameObject, 0.1f);
         }
     }
 }

@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
-  raycastOffset: 0
+  raycastOffset: 0.5
   whatIsGround:
     serializedVersion: 2
     m_Bits: 136
