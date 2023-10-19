@@ -13,7 +13,7 @@ public class PlayerAttack : MonoBehaviour
     private void Update()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down,
-            .4f);
+            8f);
         Debug.DrawRay(transform.position, Vector3.down, Color.red);
 
 

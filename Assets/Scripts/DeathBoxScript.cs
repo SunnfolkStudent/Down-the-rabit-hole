@@ -7,14 +7,14 @@ using UnityEngine.SceneManagement;
 public class DeathBoxScript : MonoBehaviour
 {
     
-    private SceneController sceneController;
+    //private SceneController sceneController;
     
     
     // Start is called before the first frame update
     void Start()
     {
         GetComponent<SceneManager>();
-        GetComponent<SceneController>();
+        //GetComponent<SceneController>();
     }
 
     // Update is called once per frame
