@@ -47,8 +47,6 @@ public class PlayerAnimations : MonoBehaviour
             {
                 _animator.Play("Jump_Start");
             }
-
-            
         }
         else
         {
@@ -56,8 +54,17 @@ public class PlayerAnimations : MonoBehaviour
             {
                 _animator.Play("Fall");
             }
+            else
+            {
+                _animator.Play("Jump_Loop");
+            }
             //_animator.Play(_rigidbody2D.velocity.y > 0 ? "Jump_Start" : "Fall");
         }
+        if (_input.jumpPressed)
+        {
+            _animator.Play("Jump_Start");
+        }
+        
         
         
     }

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -23,8 +24,8 @@ public class InputManager : MonoBehaviour
 
 // These variables are used to hold the current Input source
     private Keyboard _keyboard;
-    private Gamepad _gamepad;
-
+    [SerializeField] public Gamepad _gamepad;
+    
     private void Start()
     {
     //Assign Input Sources to Variables
@@ -35,7 +36,7 @@ public class InputManager : MonoBehaviour
     private void Update()
     {
     // Check whether we are using Gamepad or Keyboard
-        if (usingGamepad && _gamepad != null)
+        if (Gamepad.current != null)
         {
             UpdateGamepadInput();  
         }
